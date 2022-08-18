@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    margin: 0 auto;
+    position: relative;
+    background:linear-gradient(to right, #25aae1,#4481eb,#04befe,#3f86ed);
+}
+.container .form-1{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    width: 40%;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3);
+
+}
+.form-1 h1{
+    text-align: center;
+    margin-right: 12px;
+    margin-bottom: 24px;
+}
+.form-1 input {
+    border: none;
+    outline: none;
+    border-bottom:1px solid;
+    background: none;
+    margin: 15px 32px;
+    font-size: 16px;
+}
+label {
+    margin: 0px 32px;
+}
+span{
+    margin: 0px 32px;
+    color: blue;
+    cursor: pointer;
+}
+button {
+    margin: 32px;
+    margin-bottom: 24px;
+    padding:8px ;
+    cursor: pointer;
+    border-radius: 16px;
+    border: none;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #fff;
+    background:linear-gradient(to right, #25aae1,#4481eb,#04befe,#3f86ed);
+}p{
+    text-align: center;
+    font-weight: bolder;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 48px;
+    margin-top: 8;
+}
+.icons a{
+    text-decoration: none;
+    font-size: 16px;
+    margin: 3.5px;
+}
+.icons .icofont-facebook{
+    border-radius: 50%;
+    background: #5d75ab;
+    color: #fff;
+    padding: 16px;
+}
+.icons .icofont-twitter{
+    border-radius: 50%;
+    background: #1da1f2;
+    color: #fff;
+    padding: 16px;
+
+}
+.icons .icofont-google-plus{
+    border-radius: 50%;
+    background: #ee5645;
+    color: #fff;
+    padding: 16px;
+}
